@@ -1,0 +1,216 @@
+.container
+{
+    background-image:
+    url(./web_design/container_gif.gif), 
+    url(./web_design/container_bg.png);
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+}
+
+.title
+{
+    font-size: 20px;
+    padding: 5px;
+}
+
+/*Header*/
+.header
+{
+    padding-top: 20px;
+}
+
+
+/*Main*/
+.main
+{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+}
+.main_Container_1
+{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border: 1px solid;
+    box-shadow: 5px 15px #170607;
+    height: 300px;
+    width: 914px;
+    text-align: left;
+}
+
+
+.main_Container_2
+{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border: 1px solid;
+    box-shadow: 5px 15px #170607;
+    height: 300px;
+    width: 914px;
+    text-align: left;
+}
+
+.main_Container_1, .main_Container_2
+{
+    margin: 20px;
+    background-color: white;   
+}
+
+.main_Container_2
+{
+    margin-top: 30px;
+    
+}
+
+#home, #news
+{
+    background-color: white;
+    height: 200px;
+    border: 1px solid;
+}
+
+
+
+/*Right*/
+
+
+
+#right_canvas
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.tv
+{   
+    width: 360px;
+    height: 280px;
+    border: 1px solid;
+
+    animation: crtFlicker 0.15s infinite;
+}
+
+.tv::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: repeating-linear-gradient(to bottom,
+    rgba(0, 0, 0, 0.1) 0px,
+    rgba(0, 0, 0, 0.1) 1px,
+    transparent 2px,
+    transparent 4px
+    );
+    z-index: 2;
+}
+
+@keyframes crtFlicker
+{
+    0% {filter: brightness(1);}
+    50% {filter: brightness(0.95);}
+    100% {filter: brightness(1);}
+}
+
+.season
+{
+    width: 372px; 
+    height: 100px;  
+}
+
+.cursive
+{
+    font-family: "Press Start 2P", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.cursive
+{
+    padding-left: 15px;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.image
+{
+    
+
+    border: 1px solid;
+    width: 360px;
+    height: 320px;
+
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    box-shadow: 5px 15px #170607;
+    background-color: #C7A575;
+
+    
+}
+
+.window
+{
+    display: grid;
+    grid-row: auto;
+
+    border: 1px solid;
+    width: 150px;
+    margin-top: 25px;
+    box-shadow: 5px 15px #170607;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #C7A575;
+}
+
+#link
+{
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+/*Aside*/
+
+.news
+{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border: 2px solid;
+}
+#news
+{
+    overflow: hidden;
+    overflow: scroll;
+    width: 10%;
+}
+
+#text
+{
+    font-family: monospace;
+    font-size: medium;
+}
+
+
