@@ -85,12 +85,12 @@
     grid-area: sidebar;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 18%;
     border-left: 1px #afab76 solid;
     border-right: 1px #afab76 solid;
     border-top: 1px #666448 solid;
     border-bottom: 1px #fffdda solid;
-    width: 87.3%;
+    width: 60.3%;
 
     justify-self: center;
 

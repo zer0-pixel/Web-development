@@ -1,5 +1,5 @@
 // Update News
-const text = "Hello, I like animation"
+const text = "Hello, I like animation and coding. There will be more added to this site once I get things situated in my plans.";
 let index = 0;
 
 function typingEffect()
